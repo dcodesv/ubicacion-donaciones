@@ -33,21 +33,21 @@ export default {
                 tipo: 'Casa Matriz',
                 titulo: 'Variedades Guillen',
                 location: 'Mercado central de Sonsonate, Local 147',
-                contact: '+503 7691 6195'
+                contact: '+50376916195'
               },
               {
                 id: 2,
                 idTipo: 2,
                 titulo: 'Sucursal Terminal Vieja',
                 location: 'Terminal vieja, Sonsonate, Local 11-12',
-                contact: '+503 6184 0590'
+                contact: '+50361840590'
               },
               {
                 id: 3,
                 idTipo: 2,
                 titulo: 'Sucursal Mega Plaza',
                 location: 'Mega Plaza, Sonsonate, Edificio B, Pasillo 6',
-                contact: '+503 6135 6909'
+                contact: '+50361356909'
               },
             ]
           },
@@ -60,7 +60,7 @@ export default {
                 tipo: 'Casa Matriz',
                 titulo: 'Pastelería Altezza',
                 location: 'Carretera hacia Acajutla km 77.8 Caserio la Nueva, Acajutla, Sonsonate',
-                contact: '+503 2432 4639'
+                contact: '+50324324639'
               },
               {
                 id: 2,
@@ -68,7 +68,7 @@ export default {
                 tipo: 'Sucursal',
                 titulo: 'Sucursal Cruz Roja',
                 location: 'Boulevard Oscar Osorio, Salida hacia Acajutla Contiguo a cruz roja Sonsonate',
-                contact: '+503 2401 6605'
+                contact: '+50324016605'
               },
               {
                 id: 3,
@@ -76,7 +76,7 @@ export default {
                 tipo: 'Sucursal',
                 titulo: 'Sucursal Nahuizalco',
                 location: '3 calle Poniente 1 av sur contiguo a Caja de crédito',
-                contact: '+503 2453 0592'
+                contact: '+50324530592'
               },
               {
                 id: 4,
@@ -84,7 +84,7 @@ export default {
                 tipo: 'Sucursal',
                 titulo: 'Sucursal Acajutla',
                 location: 'Calle Acaxual, frente a administración de mercados',
-                contact: '+503 2452 3844'
+                contact: '+50324523844'
               },
               {
                 id: 5,
@@ -92,7 +92,7 @@ export default {
                 tipo: 'Sucursal',
                 titulo: 'Sucursal Cara Sucia',
                 location: 'Contiguo a pollo campero Cara Sucia Ahuachapan',
-                contact: '+503 2437 0040'
+                contact: '+50324370040'
               },
             ]
           },
