@@ -4,7 +4,7 @@
             <span class="text-xs font-light text-white">Unete a la causa</span>
             <h2 class="text-base text-white font-medium">¿Deseas apoyarnos?</h2>
             <div class="flex items-center justify-start">
-                <a :href="'https://wa.me/50363152546/?text='+this.msg" class="mt-4 bg-greenwhatsapp hover:text-white transition-all hover:bg-bluetext text-white rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto">Contactanos <i class="ri-whatsapp-line ml-2 text-base"></i></a>
+                <a :href="'https://wa.me/50363152546/?text='+this.msg" class="mt-4 bg-greenwhatsapp hover:text-white transition-all hover:bg-bluetext text-white rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto">Contactanos <i class="ri-whatsapp-fill ml-2 text-base"></i></a>
             </div>
         </div>
     </div>

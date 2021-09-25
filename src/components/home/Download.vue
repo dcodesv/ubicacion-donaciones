@@ -4,8 +4,8 @@
             <span class="text-xs font-light text-graytext">Bonus</span>
             <h2 class="text-base text-bluetext font-medium">{{name}}</h2>
             <div class="flex items-center justify-start">
-                <a :href="url" class="mt-4 bg-graybgalt hover:text-white transition-all hover:bg-bluetext text-bluetext rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto">Visualizar <i class="ri-eye-line ml-2 text-base"></i></a>
-                <a :href="url" download class="mt-4 bg-yellowbutton hover:text-white transition-all hover:bg-bluetext text-bluetext rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto ml-4">Descargar <i class="ri-download-cloud-2-line ml-2 text-base"></i></a>
+                <a :href="url" target="_blank" class="mt-4 bg-graybgalt hover:text-white transition-all hover:bg-bluetext text-bluetext rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto">Visualizar <i class="ri-eye-fill ml-2 text-base"></i></a>
+                <a :href="url" download class="mt-4 bg-yellowbutton hover:text-white transition-all hover:bg-bluetext text-bluetext rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto ml-4">Descargar <i class="ri-download-cloud-2-fill ml-2 text-base"></i></a>
             </div>
         </div>
     </div>

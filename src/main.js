@@ -1,6 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import "tailwindcss/tailwind.css"
+import router from './router.js'
+import './assets/css/styles.css'
+import 'remixicon/fonts/remixicon.css'
 import 'remixicon/fonts/remixicon.css'
 
-createApp(App).mount('#app')
+
+createApp(App).use(router).mount('#app')
+
