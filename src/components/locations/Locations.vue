@@ -4,7 +4,7 @@
         <div class="flex flex-col w-full items-start justify-start">
             <h2 class="text-base text-bluetext font-medium mb-2">{{cmatriz.tipo + ' - '+ cmatriz.titulo}}</h2>
             <span class="text-sm font-light text-graytext">Mercado central de sonsonate, Local 147</span>
-            <a :href="'tel:'+cmatriz.contact" class="cursor-pointer mt-4 bg-yellowbutton hover:text-white transition-all hover:bg-bluetext text-bluetext rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto">+503 7663 1201 <i class="ri-phone-fill ml-2 text-base"></i></a>
+            <a :href="'tel:'+cmatriz.contact" class="cursor-pointer mt-4 bg-yellowbutton hover:text-white transition-all hover:bg-bluetext text-bluetext rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto">{{cmatriz.contact}} <i class="ri-phone-fill ml-2 text-base"></i></a>
         </div>
       </div>
       <div v-for="sucursal in empresas.sucursales" :key="sucursal.index" v-show="sucursal.idTipo === 2" class="flex w-11/12 mx-auto max-w-md">
