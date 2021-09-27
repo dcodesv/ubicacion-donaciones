@@ -40,7 +40,7 @@ export default {
           },
           {
             id:1,
-            name: 'Parelería Altezza',
+            name: 'Pastelería Altezza',
             img: '/pasteleria-altezza.png',
             alt:'Logotipo Pastelería Altezza',
             rss:'https://www.facebook.com/AltezzaSV'

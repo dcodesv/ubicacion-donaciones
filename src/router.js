@@ -12,7 +12,7 @@ import Home from '@/views/Home.vue'
             component: Home
         },
         {
-            path: '/direccion:id',
+            path: '/direccion/:id',
             name: 'direccion',
             component: Locations,
         },    
