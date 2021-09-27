@@ -5,7 +5,7 @@
         <a href="http://diegocodesv.site" target="_blank">
             <img
                 class="w-24 footer-logo" 
-                src="dcodesv.png" 
+                src="/dcodesv.png" 
                 alt="dcodesv logotipo"/>
         </a>
     </div>

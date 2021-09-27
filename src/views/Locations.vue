@@ -96,6 +96,19 @@ export default {
               },
             ]
           },
+          {
+            id: 3,
+            sucursales:[
+              {
+                id: 1,
+                idTipo: 1,
+                tipo: 'Casa Matriz',
+                titulo: 'Impresos',
+                location: 'Plaza Las Dalias 6 av. Bulevar el Ángel #5, Sonsonate, El Salvador',
+                contact: '+503 6312 1551'
+              },
+            ]
+          },
         ]
       }
   }

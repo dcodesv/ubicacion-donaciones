@@ -45,6 +45,13 @@ export default {
             alt:'Logotipo Pastelería Altezza',
             rss:'https://www.facebook.com/AltezzaSV'
           },
+          {
+            id:2,
+            name: 'Impresos',
+            img: '/impresos.png',
+            alt:'Logotipo de Impresos',
+            rss:'https://www.facebook.com/Impresos-114562413781646'
+          },
         ],
         downloadInfo:[
           {

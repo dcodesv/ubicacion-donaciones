@@ -3,7 +3,7 @@
       <div v-for="cmatriz in empresas.sucursales" :key="cmatriz.index" v-show="cmatriz.idTipo === 1" class="flex flex-row-reverse justify-around items-center w-11/12 max-w-md bg-white rounded-xl box-border px-8 py-6 shadow-md my-4">
         <div class="flex flex-col w-full items-start justify-start">
             <h2 class="text-base text-bluetext font-medium mb-2">{{cmatriz.tipo + ' - '+ cmatriz.titulo}}</h2>
-            <span class="text-sm font-light text-graytext">Mercado central de sonsonate, Local 147</span>
+            <span class="text-sm font-light text-graytext">{{cmatriz.location}}</span>
             <a :href="'tel:'+cmatriz.contact" class="cursor-pointer mt-4 bg-yellowbutton hover:text-white transition-all hover:bg-bluetext text-bluetext rounded-lg flex justify-center items-center py-3 px-4 text-xs w-auto">{{cmatriz.contact}} <i class="ri-phone-fill ml-2 text-base"></i></a>
         </div>
       </div>
